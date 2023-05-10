@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="novel-author-service" />
+        <module name="novel-book-api" />
+        <module name="novel-user-api" />
+        <module name="novel-home" />
+        <module name="novel-news-service" />
+        <module name="novel-book-service" />
+        <module name="novel-user-service" />
+        <module name="novel-monitor" />
+        <module name="novel-common" />
+        <module name="novel-search" />
+        <module name="novel-gateway" />
+        <module name="novel-resource" />
+        <module name="novel-author-api" />
+        <module name="novel-config" />
+        <module name="novel-news-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Chi-novel" options="" />
+      <module name="novel-author" options="" />
+      <module name="novel-author-api" options="-parameters" />
+      <module name="novel-author-service" options="-parameters" />
+      <module name="novel-book" options="" />
+      <module name="novel-book-api" options="-parameters" />
+      <module name="novel-book-service" options="-parameters" />
+      <module name="novel-common" options="-parameters" />
+      <module name="novel-config" options="-parameters" />
+      <module name="novel-core" options="" />
+      <module name="novel-gateway" options="-parameters" />
+      <module name="novel-home" options="-parameters" />
+      <module name="novel-monitor" options="-parameters" />
+      <module name="novel-news" options="" />
+      <module name="novel-news-api" options="-parameters" />
+      <module name="novel-news-service" options="-parameters" />
+      <module name="novel-resource" options="-parameters" />
+      <module name="novel-search" options="-parameters" />
+      <module name="novel-user" options="" />
+      <module name="novel-user-api" options="-parameters" />
+      <module name="novel-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

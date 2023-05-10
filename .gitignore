@@ -1,0 +1,16 @@
+# 项目排除路径
+/novel-author/novel-author-api/target/
+/novel-author/novel-author-service/target/
+/novel-book/novel-book-api/target/
+/novel-book/novel-book-service/target/
+/novel-core/novel-common/target/
+/novel-core/novel-config/target/
+/novel-gateway/target/
+/novel-home/target/
+/novel-monitor/target/
+/novel-news/novel-news-api/target/
+/novel-news/novel-news-service/target/
+/novel-resource/target/
+/novel-search/target/
+/novel-user/novel-user-api/target/
+/novel-user/novel-user-service/target/

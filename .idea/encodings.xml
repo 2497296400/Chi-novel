@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/novel-author/novel-author-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-author/novel-author-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-author/novel-author-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-author/novel-author-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-author/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-author/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/novel-book-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/novel-book-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/novel-book-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/novel-book-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-book/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/novel-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/novel-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/novel-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/novel-config/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-home/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-news/novel-news-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-news/novel-news-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-news/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-news/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-resource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-user/novel-user-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-user/novel-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/novel-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,377 @@
+2023-05-04 19:27:57,694 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-05-04 19:27:57,697 WARN (NacosLogging.java:64)- Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-05-04 19:27:57,710 INFO (LocalConfigInfoProcessor.java:68)- LOCAL_SNAPSHOT_PATH:C:\Users\41038\nacos\config
+2023-05-04 19:27:57,712 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0
+2023-05-04 19:27:57,725 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$652/0x0000000800fbef70
+2023-05-04 19:27:57,726 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$653/0x0000000800fbf390
+2023-05-04 19:27:57,726 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-05-04 19:27:57,726 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-05-04 19:27:57,733 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Try to connect to server on start up, server: {serverIp = '192.168.101.130', server main port = 8848}
+2023-05-04 19:27:58,354 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Success to connect to server [192.168.101.130:8848] on start up, connectionId = 1683199677145_192.168.101.1_58003
+2023-05-04 19:27:58,356 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Notify connected event to listeners.
+2023-05-04 19:27:58,357 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-05-04 19:27:58,357 INFO (ClientWorker.java:638)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Connected,notify listen context...
+2023-05-04 19:27:58,359 INFO (LoggerUtils.java:60)- [f21a20d8-91be-4024-8bd0-8e1c3adc638b_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$672/0x000000080112ec00
+2023-05-04 19:27:58,391 INFO (Limiter.java:62)- limitTime:5.0
+2023-05-04 19:27:58,410 INFO (JvmUtil.java:54)- isMultiInstance:false
+2023-05-04 19:27:58,431 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-rabbitmq.yml] & group[DEFAULT_GROUP]
+2023-05-04 19:27:58,441 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-book-service] & group[DEFAULT_GROUP]
+2023-05-04 19:27:58,448 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-book-service.yml] & group[DEFAULT_GROUP]
+2023-05-04 19:27:58,455 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-book-service-common.yml] & group[DEFAULT_GROUP]
+2023-05-04 19:27:58,460 WARN (NacosPropertySourceBuilder.java:87)- Ignore the empty nacos configuration and get it based on dataId[novel-book-service-dev.yml] & group[DEFAULT_GROUP]
+2023-05-04 19:27:58,461 INFO (PropertySourceBootstrapConfiguration.java:108)- Located property source: [BootstrapPropertySource {name='bootstrapProperties-novel-book-service-dev.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-book-service-common.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-book-service.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-book-service,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-rabbitmq.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-redis.yml,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-novel-mysql.yml,DEFAULT_GROUP'}]
+2023-05-04 19:27:58,467 INFO (SpringApplication.java:638)- The following 2 profiles are active: "common", "dev"
+2023-05-04 19:27:59,916 INFO (RepositoryConfigurationDelegate.java:291)- Multiple Spring Data modules found, entering strict repository configuration mode
+2023-05-04 19:27:59,919 INFO (RepositoryConfigurationDelegate.java:138)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-05-04 19:27:59,946 INFO (RepositoryConfigurationDelegate.java:208)- Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-05-04 19:28:00,210 INFO (GenericScope.java:282)- BeanFactory id=52150f30-93da-3ab8-a1a0-64046ba9fe2b
+2023-05-04 19:28:00,965 WARN (Bootstrap.java:68)- UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-05-04 19:28:00,999 INFO (ServletContextImpl.java:372)- Initializing Spring embedded WebApplicationContext
+2023-05-04 19:28:01,000 INFO (ServletWebServerApplicationContext.java:291)- Root WebApplicationContext: initialization completed in 2517 ms
+2023-05-04 19:28:02,373 INFO (FeignClientFactoryBean.java:437)- For 'novel-user-service' URL not provided. Will try picking an instance via load-balancing.
+2023-05-04 19:28:02,677 INFO (Version.java:41)- Redisson 3.19.1
+2023-05-04 19:28:03,003 INFO (ConnectionPool.java:162)- 1 connections initialized for 192.168.101.130/192.168.101.130:6379
+2023-05-04 19:28:03,078 INFO (ConnectionPool.java:162)- 24 connections initialized for 192.168.101.130/192.168.101.130:6379
+2023-05-04 19:28:03,509 INFO (SentinelWebMvcConfigurer.java:52)- [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+2023-05-04 19:28:04,905 INFO (StdSchedulerFactory.java:1220)- Using default implementation for ThreadExecutor
+2023-05-04 19:28:04,919 INFO (SchedulerSignalerImpl.java:61)- Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-05-04 19:28:04,919 INFO (QuartzScheduler.java:229)- Quartz Scheduler v.2.3.2 created.
+2023-05-04 19:28:04,920 INFO (RAMJobStore.java:155)- RAMJobStore initialized.
+2023-05-04 19:28:04,922 INFO (QuartzScheduler.java:294)- Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-05-04 19:28:04,922 INFO (StdSchedulerFactory.java:1374)- Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-05-04 19:28:04,922 INFO (StdSchedulerFactory.java:1378)- Quartz scheduler version: 2.3.2
+2023-05-04 19:28:04,922 INFO (QuartzScheduler.java:2293)- JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@376ba8e3
+2023-05-04 19:28:05,490 INFO (EndpointLinksResolver.java:58)- Exposing 21 endpoint(s) beneath base path '/actuator'
+2023-05-04 19:28:05,690 WARN (LocalVariableTableParameterNameDiscoverer.java:123)- Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.springframework.amqp.rabbit.core.RabbitAdmin
+2023-05-04 19:28:05,750 INFO (Undertow.java:120)- starting server: Undertow - 2.3.5.Final
+2023-05-04 19:28:05,766 INFO (Xnio.java:95)- XNIO version 3.8.8.Final
+2023-05-04 19:28:05,809 INFO (NioXnio.java:58)- XNIO NIO Implementation Version 3.8.8.Final
+2023-05-04 19:28:05,924 INFO (Version.java:55)- JBoss Threads version 3.5.0.Final
+2023-05-04 19:28:06,056 INFO (UndertowWebServer.java:121)- Undertow started on port(s) 9020 (http)
+2023-05-04 19:28:06,060 INFO (SearchableProperties.java:197)- properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-05-04 19:28:06,061 INFO (InitUtils.java:61)- initializer namespace from System Property : null
+2023-05-04 19:28:06,062 INFO (InitUtils.java:65)- initializer namespace from System Environment :null
+2023-05-04 19:28:06,062 INFO (InitUtils.java:72)- initializer namespace from System Property :
+2023-05-04 19:28:06,074 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-05-04 19:28:06,074 INFO (ClientAuthPluginManager.java:56)- [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-05-04 19:28:06,079 INFO (RpcClientFactory.java:94)- [RpcClientFactory] create a new rpc client of 5743e148-7e5d-4e6d-924c-fde3b3a10b83
+2023-05-04 19:28:06,081 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-05-04 19:28:06,082 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-05-04 19:28:06,082 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-05-04 19:28:06,083 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Try to connect to server on start up, server: {serverIp = '192.168.101.130', server main port = 8848}
+2023-05-04 19:28:06,207 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Success to connect to server [192.168.101.130:8848] on start up, connectionId = 1683199685054_192.168.101.1_58064
+2023-05-04 19:28:06,207 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Notify connected event to listeners.
+2023-05-04 19:28:06,207 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-05-04 19:28:06,208 INFO (NamingGrpcRedoService.java:78)- Grpc connection connect
+2023-05-04 19:28:06,208 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$672/0x000000080112ec00
+2023-05-04 19:28:06,209 INFO (NamingGrpcClientProxy.java:120)- [REGISTER-SERVICE] public registering service novel-book-service with instance Instance{instanceId='null', ip='172.24.49.103', port=9020, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-05-04 19:28:06,223 INFO (NacosServiceRegistry.java:76)- nacos registry, DEFAULT_GROUP novel-book-service 172.24.49.103:9020 register finished
+2023-05-04 19:28:06,336 INFO (SchedulerFactoryBean.java:729)- Starting Quartz Scheduler now
+2023-05-04 19:28:06,337 INFO (QuartzScheduler.java:547)- Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-05-04 19:28:06,360 INFO (StartupInfoLogger.java:57)- Started NovelBookApplication in 10.059 seconds (process running for 11.492)
+2023-05-04 19:28:06,367 INFO (CacheData.java:67)- nacos.cache.data.init.snapshot = true 
+2023-05-04 19:28:06,368 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-book-service-common.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,378 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-book-service-common.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,378 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-book-service-common.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,381 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-mysql.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,382 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-mysql.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,383 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-mysql.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,386 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-redis.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,387 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-redis.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,387 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-redis.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,387 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-book-service-dev.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,388 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-book-service-dev.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,388 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-book-service-dev.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,388 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-rabbitmq.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,389 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,389 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-rabbitmq.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,390 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-book-service.yml+DEFAULT_GROUP
+2023-05-04 19:28:06,390 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-book-service.yml, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,390 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-book-service.yml, group=DEFAULT_GROUP
+2023-05-04 19:28:06,391 INFO (ClientWorker.java:379)- [fixed-192.168.101.130_8848] [subscribe] novel-book-service+DEFAULT_GROUP
+2023-05-04 19:28:06,391 INFO (CacheData.java:197)- [fixed-192.168.101.130_8848] [add-listener] ok, tenant=, dataId=novel-book-service, group=DEFAULT_GROUP, cnt=1
+2023-05-04 19:28:06,391 INFO (NacosContextRefresher.java:129)- [Nacos Config] Listening config: dataId=novel-book-service, group=DEFAULT_GROUP
+2023-05-04 19:28:06,563 INFO (ServletContextImpl.java:372)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-04 19:28:06,564 INFO (FrameworkServlet.java:532)- Initializing Servlet 'dispatcherServlet'
+2023-05-04 19:28:06,568 INFO (FrameworkServlet.java:554)- Completed initialization in 4 ms
+2023-05-04 19:28:06,597 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [192.168.10.110:5672]
+2023-05-04 19:28:11,631 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [192.168.10.110:5672]
+2023-05-04 19:28:16,671 INFO (AbstractConnectionFactory.java:630)- Attempting to connect to: [192.168.10.110:5672]
+2023-05-04 19:28:18,704 WARN (AbstractHealthIndicator.java:94)- Rabbit health check failed
+org.springframework.amqp.AmqpConnectException: java.net.ConnectException: Connection refused: no further information
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:61)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:594)
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:687)
+	at org.springframework.amqp.rabbit.connection.ConnectionFactoryUtils.createConnection(ConnectionFactoryUtils.java:257)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2225)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.lambda$execute$13(RabbitTemplate.java:2187)
+	at org.springframework.retry.support.RetryTemplate.doExecute(RetryTemplate.java:329)
+	at org.springframework.retry.support.RetryTemplate.execute(RetryTemplate.java:225)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2186)
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2178)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.getVersion(RabbitHealthIndicator.java:49)
+	at org.springframework.boot.actuate.amqp.RabbitHealthIndicator.doHealthCheck(RabbitHealthIndicator.java:44)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.HealthIndicator.getHealth(HealthIndicator.java:37)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:82)
+	at org.springframework.boot.actuate.health.HealthEndpoint.getHealth(HealthEndpoint.java:41)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getLoggedHealth(HealthEndpointSupport.java:172)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:145)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getAggregateContribution(HealthEndpointSupport.java:156)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getContribution(HealthEndpointSupport.java:141)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:110)
+	at org.springframework.boot.actuate.health.HealthEndpointSupport.getHealth(HealthEndpointSupport.java:81)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:76)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:66)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:281)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:74)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:124)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:97)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:814)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor51.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:712)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:587)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:828)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:705)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:704)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:549)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:59)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1223)
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1173)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:632)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:607)
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:557)
+	... 53 common frames omitted
+2023-05-04 19:28:18,708 WARN (HealthEndpointSupport.java:181)- Health contributor org.springframework.boot.actuate.amqp.RabbitHealthIndicator (rabbit) took 12118ms to respond
+2023-05-04 19:28:18,712 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2023-05-04 19:28:18,983 INFO (HikariPool.java:565)- HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c41f44a
+2023-05-04 19:28:18,995 INFO (HikariDataSource.java:123)- HikariPool-1 - Start completed.
+2023-05-04 19:28:32,160 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY create_time DESC limit 30
+2023-05-04 19:28:32,160 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
+2023-05-04 19:28:32,160 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ?) ORDER BY visit_count DESC limit 30
+2023-05-04 19:28:32,211 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
+2023-05-04 19:28:32,211 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer)
+2023-05-04 19:28:32,211 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
+2023-05-04 19:28:32,315 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
+2023-05-04 19:28:32,317 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
+2023-05-04 19:28:32,317 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
+2023-05-04 19:28:32,446 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (id IN (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?))
+2023-05-04 19:28:32,447 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1334318182169681920(Long), 1334318497132552192(Long), 1334318818323963904(Long), 1334328310788882432(Long), 1334334734843609088(Long), 1334335471568912384(Long), 1337759637059973121(Long), 1337759773395824640(Long), 1337762752513486849(Long), 1337872061003993088(Long), 1337872316667793408(Long), 1337872488235798528(Long), 1337872597996539904(Long), 1337872898115768320(Long), 1337873148071120896(Long), 1337874646456864768(Long), 1337874812798767104(Long), 1337874951365988352(Long), 1337875255574663168(Long), 1337876581629038592(Long), 1337879143543476224(Long), 1337879206630002688(Long), 1337882606201475072(Long), 1337884719262470144(Long), 1337949399824781312(Long), 1337957605418520576(Long), 1337958745514233856(Long), 1337960531323047936(Long), 1337961040297644032(Long), 1337968514828390400(Long), 1337971702436515840(Long)
+2023-05-04 19:28:32,458 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 31
+2023-05-04 19:28:44,565 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,name,sort,create_time,update_time FROM book_category WHERE (work_direction = ?)
+2023-05-04 19:28:44,566 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer)
+2023-05-04 19:28:44,590 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 6
+2023-05-04 19:29:01,129 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,130 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,130 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,130 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,131 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,132 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,134 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,135 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_comment WHERE (book_id = ?)
+2023-05-04 19:29:01,137 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,139 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,141 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,141 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,142 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,143 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,143 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,143 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,144 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,158 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,165 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,166 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,168 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,168 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (category_id = ? AND word_count > ?) ORDER BY last_chapter_update_time DESC limit 500
+2023-05-04 19:29:01,170 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 5(Long), 0(Integer)
+2023-05-04 19:29:01,173 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE id=?
+2023-05-04 19:29:01,174 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879204755148800(Long)
+2023-05-04 19:29:01,178 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,181 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 21
+2023-05-04 19:29:01,190 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,chapter_id,content,create_time,update_time FROM book_content WHERE (chapter_id = ?) limit 1
+2023-05-04 19:29:01,191 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879204755148800(Long)
+2023-05-04 19:29:01,197 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: update book_info set visit_count = visit_count + 1 where id = ?
+2023-05-04 19:29:01,197 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,200 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879206630002688(Long)
+2023-05-04 19:29:01,201 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: null
+2023-05-04 19:29:01,204 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,207 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,208 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879206630002688(Long)
+2023-05-04 19:29:01,209 DEBUG (BaseJdbcLogger.java:137)- <==    Updates: 0
+2023-05-04 19:29:01,218 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,220 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,221 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1338018955243081728(Long)
+2023-05-04 19:29:01,225 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,226 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,227 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1338018955243081728(Long)
+2023-05-04 19:29:01,253 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,259 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_chapter WHERE (book_id = ?)
+2023-05-04 19:29:01,259 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,260 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:01,260 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,261 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1357665926098522112(Long)
+2023-05-04 19:29:01,263 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,263 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,266 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,267 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1357665926098522112(Long)
+2023-05-04 19:29:01,284 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,286 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:01,286 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431612847591370752(Long)
+2023-05-04 19:29:01,288 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:01,292 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:01,293 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431612847591370752(Long)
+2023-05-04 19:29:01,306 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:07,793 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_comment WHERE (user_id = ? AND book_id = ?)
+2023-05-04 19:29:07,794 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1(Long), 1337879143543476224(Long)
+2023-05-04 19:29:07,805 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:07,809 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: INSERT INTO book_comment ( book_id, user_id, comment_content, create_time, update_time ) VALUES ( ?, ?, ?, ?, ? )
+2023-05-04 19:29:07,810 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long), 1(Long), 1133213223
+23
+(String), 2023-05-04T19:29:07.805744400(LocalDateTime), 2023-05-04T19:29:07.805744400(LocalDateTime)
+2023-05-04 19:29:07,853 DEBUG (BaseJdbcLogger.java:137)- <==    Updates: 1
+2023-05-04 19:29:07,897 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_comment WHERE (book_id = ?)
+2023-05-04 19:29:07,898 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:07,899 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:07,901 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,user_id,comment_content,reply_count,audit_status,create_time,update_time FROM book_comment WHERE (book_id = ?) ORDER BY create_time DESC limit 5
+2023-05-04 19:29:07,902 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337879143543476224(Long)
+2023-05-04 19:29:07,909 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:07,985 INFO (NamingClientProxyDelegate.java:167)- [SUBSCRIBE-SERVICE] service:novel-user-service, group:DEFAULT_GROUP, clusters: 
+2023-05-04 19:29:08,000 INFO (ServiceInfoHolder.java:184)- init new ips(1) service: DEFAULT_GROUP@@novel-user-service -> [{"ip":"172.24.49.103","port":9060,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-05-04 19:29:08,002 INFO (ServiceInfoHolder.java:169)- current ips:(1) service: DEFAULT_GROUP@@novel-user-service -> [{"ip":"172.24.49.103","port":9060,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@novel-user-service","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-05-04 19:29:08,548 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Receive server push request, request = NotifySubscriberRequest, requestId = 81
+2023-05-04 19:29:08,549 INFO (LoggerUtils.java:60)- [5743e148-7e5d-4e6d-924c-fde3b3a10b83] Ack server push request, request = NotifySubscriberRequest, requestId = 81
+2023-05-04 19:29:30,832 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT(*) AS total FROM book_info WHERE (author_id = ?)
+2023-05-04 19:29:30,833 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1(Long)
+2023-05-04 19:29:30,836 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:36,932 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT(*) AS total FROM book_info WHERE (author_id = ?)
+2023-05-04 19:29:36,933 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1(Long)
+2023-05-04 19:29:36,936 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:41,779 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (word_count > ? AND word_count > ?) ORDER BY update_time DESC limit 30
+2023-05-04 19:29:41,780 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 0(Integer), 0(Integer)
+2023-05-04 19:29:41,816 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 30
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,513 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,514 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_comment WHERE (book_id = ?)
+2023-05-04 19:29:44,514 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,516 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,516 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,516 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,517 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,517 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,518 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,518 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,523 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,526 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,528 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,530 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,530 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,532 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE (category_id = ? AND word_count > ?) ORDER BY last_chapter_update_time DESC limit 500
+2023-05-04 19:29:44,533 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 3(Long), 0(Integer)
+2023-05-04 19:29:44,537 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,537 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 10
+2023-05-04 19:29:44,538 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE id=?
+2023-05-04 19:29:44,538 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1432076089790877696(Long)
+2023-05-04 19:29:44,538 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,539 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1357677274429722624(Long)
+2023-05-04 19:29:44,543 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,543 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,545 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,545 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1357677274429722624(Long)
+2023-05-04 19:29:44,546 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: update book_info set visit_count = visit_count + 1 where id = ?
+2023-05-04 19:29:44,547 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: null
+2023-05-04 19:29:44,547 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,chapter_id,content,create_time,update_time FROM book_content WHERE (chapter_id = ?) limit 1
+2023-05-04 19:29:44,547 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1432076089790877696(Long)
+2023-05-04 19:29:44,551 DEBUG (BaseJdbcLogger.java:137)- <==    Updates: 0
+2023-05-04 19:29:44,558 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,559 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,559 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,559 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1338425367026774016(Long)
+2023-05-04 19:29:44,562 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,563 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT COUNT( * ) AS total FROM book_chapter WHERE (book_id = ?)
+2023-05-04 19:29:44,563 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1431630596354977792(Long)
+2023-05-04 19:29:44,564 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,564 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1338425367026774016(Long)
+2023-05-04 19:29:44,566 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,576 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,577 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,work_direction,category_id,category_name,pic_url,book_name,author_id,author_name,book_desc,score,book_status,visit_count,word_count,comment_count,last_chapter_id,last_chapter_name,last_chapter_update_time,is_vip,create_time,update_time FROM book_info WHERE id=?
+2023-05-04 19:29:44,577 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337960531323047936(Long)
+2023-05-04 19:29:44,580 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:29:44,582 DEBUG (BaseJdbcLogger.java:137)- ==>  Preparing: SELECT id,book_id,chapter_num,chapter_name,word_count,is_vip,create_time,update_time FROM book_chapter WHERE (book_id = ?) ORDER BY chapter_num ASC limit 1
+2023-05-04 19:29:44,583 DEBUG (BaseJdbcLogger.java:137)- ==> Parameters: 1337960531323047936(Long)
+2023-05-04 19:29:44,592 DEBUG (BaseJdbcLogger.java:137)- <==      Total: 1
+2023-05-04 19:30:41,139 WARN (NotifyCenter.java:136)- [NotifyCenter] Start destroying Publisher
+2023-05-04 19:30:41,139 WARN (HttpClientBeanHolder.java:102)- [HttpClientBeanHolder] Start destroying common HttpClient
+2023-05-04 19:30:41,140 WARN (NotifyCenter.java:153)- [NotifyCenter] Destruction of the end
+2023-05-04 19:30:41,140 WARN (HttpClientBeanHolder.java:111)- [HttpClientBeanHolder] Destruction of the end
+2023-05-04 19:30:41,142 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-04 19:30:41,143 INFO (Undertow.java:259)- stopping server: Undertow - 2.3.5.Final
+2023-05-04 19:30:41,146 INFO (ServletContextImpl.java:372)- Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-04 19:30:41,152 INFO (SchedulerFactoryBean.java:847)- Shutting down Quartz Scheduler
+2023-05-04 19:30:41,152 INFO (QuartzScheduler.java:666)- Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-05-04 19:30:41,152 INFO (QuartzScheduler.java:585)- Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-05-04 19:30:41,152 INFO (QuartzScheduler.java:740)- Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-05-04 19:30:41,158 INFO (NacosServiceRegistry.java:95)- De-registering from Nacos Server now...
+2023-05-04 19:30:41,158 INFO (NamingGrpcClientProxy.java:216)- [DEREGISTER-SERVICE] public deregistering service novel-book-service with instance: Instance{instanceId='null', ip='172.24.49.103', port=9020, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-05-04 19:30:41,172 INFO (NacosServiceRegistry.java:115)- De-registration finished.
+2023-05-04 19:30:41,174 INFO (ServiceInfoHolder.java:256)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-05-04 19:30:41,174 INFO (FailoverReactor.java:133)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-05-04 19:30:41,174 INFO (FailoverReactor.java:135)- com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-05-04 19:30:41,174 INFO (ServiceInfoHolder.java:258)- com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-05-04 19:30:41,174 INFO (NamingClientProxyDelegate.java:204)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-05-04 19:30:41,174 INFO (ServiceInfoUpdateService.java:143)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-05-04 19:30:41,174 INFO (ServiceInfoUpdateService.java:145)- com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-05-04 19:30:41,174 INFO (ServerListManager.java:194)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-05-04 19:30:41,174 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-05-04 19:30:41,174 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-05-04 19:30:41,175 INFO (ServerListManager.java:199)- com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-05-04 19:30:41,175 INFO (NamingHttpClientProxy.java:484)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-05-04 19:30:41,175 WARN (NamingHttpClientManager.java:74)- [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-05-04 19:30:41,175 WARN (NamingHttpClientManager.java:81)- [NamingHttpClientManager] Destruction of the end
+2023-05-04 19:30:41,175 INFO (NamingHttpClientProxy.java:486)- com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-05-04 19:30:41,175 INFO (RpcClient.java:425)- Shutdown rpc client, set status to shutdown
+2023-05-04 19:30:41,175 INFO (RpcClient.java:427)- Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@7b33b056[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-05-04 19:30:41,175 INFO (RpcClient.java:580)- Close current connection 1683199685054_192.168.101.1_58064
+2023-05-04 19:30:41,178 INFO (GrpcClient.java:140)- Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@5d9ff5b3[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 37]
+2023-05-04 19:30:41,178 INFO (NamingGrpcRedoService.java:292)- Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@2d299f81[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 51]
+2023-05-04 19:30:41,179 INFO (CredentialWatcher.java:106)- [null] CredentialWatcher is stopped
+2023-05-04 19:30:41,180 INFO (CredentialService.java:100)- [null] CredentialService is freed
+2023-05-04 19:30:41,180 INFO (NamingClientProxyDelegate.java:211)- com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-05-04 19:30:41,232 INFO (HikariDataSource.java:350)- HikariPool-1 - Shutdown initiated...
+2023-05-04 19:30:41,239 INFO (HikariDataSource.java:352)- HikariPool-1 - Shutdown completed.

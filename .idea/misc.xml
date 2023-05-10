@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/novel-author" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-author/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-core/novel-common/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-core/novel-config/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-book/novel-book-api/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-book/novel-book-service/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-author/novel-author-service/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-book/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-core/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-home/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-news/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-monitor/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-search/pom.xml" />
+        <option value="$PROJECT_DIR$/novel-user/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

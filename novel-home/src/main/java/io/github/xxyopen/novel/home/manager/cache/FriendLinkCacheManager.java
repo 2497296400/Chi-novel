@@ -1,0 +1,47 @@
+package io.github.xxyopen.novel.home.manager.cache;
+
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import io.github.xxyopen.novel.common.constant.CacheConsts;
+import io.github.xxyopen.novel.common.constant.DatabaseConsts;
+import io.github.xxyopen.novel.home.dao.entity.HomeFriendLink;
+import io.github.xxyopen.novel.home.dao.mapper.HomeFriendLinkMapper;
+import io.github.xxyopen.novel.home.dto.resp.HomeFriendLinkRespDto;
+import lombok.RequiredArgsConstructor;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+/**
+ * 友情链接 缓存管理类
+ *
+ * @author xiongxiaoyang
+ * @date 2022/5/12
+ */
+@Component
+@RequiredArgsConstructor
+public class FriendLinkCacheManager {
+
+    private final HomeFriendLinkMapper friendLinkMapper;
+
+    /**
+     * 友情链接列表查询，并放入缓存中
+     */
+    @Cacheable(cacheManager = CacheConsts.REDIS_CACHE_MANAGER,
+            value = CacheConsts.HOME_FRIEND_LINK_CACHE_NAME)
+    public List<HomeFriendLinkRespDto> listFriendLinks() {
+        QueryWrapper<HomeFriendLink> queryWrapper = new QueryWrapper<>();
+        queryWrapper.orderByAsc(DatabaseConsts.CommonColumnEnum.SORT.getName());
+        return friendLinkMapper.selectList(queryWrapper).stream().map(v -> {
+            HomeFriendLinkRespDto homeFriendLinkRespDto = new HomeFriendLinkRespDto();
+            homeFriendLinkRespDto.setLinkName(v.getLinkName());
+            homeFriendLinkRespDto.setLinkUrl(v.getLinkUrl());
+            return homeFriendLinkRespDto;
+        }).toList();
+    }
+    @CacheEvict(cacheManager = CacheConsts.REDIS_CACHE_MANAGER,value = CacheConsts.HOME_FRIEND_LINK_CACHE_NAME)
+    public  void  cacheEvict(){
+        
+    }
+}

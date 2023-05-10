@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: novel-home-service
+  profiles:
+    include: common
+
